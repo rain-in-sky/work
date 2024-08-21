@@ -6,6 +6,7 @@ def minus(a, *args):
     return a - sum(args)
 
 
+
 def multiply(*args):
     return 1 if not args else args[0] * multiply(*args[1:])
 
